@@ -13,7 +13,7 @@
 ---
 
 ## Examples
-
+### Rust
 ```rust
 use scraprr::{fetch_url, fetch_url_with_options, RequestOptions, extract_tag};
 
@@ -49,7 +49,7 @@ fn main() {
     println!("Wikipedia page HTML:\n{}", response);
 }
 ```
-
+### Python
 ```python
 import scraprr
 
