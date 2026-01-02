@@ -15,6 +15,8 @@ pub struct RequestOptions {
     pub query: HashMap<String, String>,
 }
 
+
+
 impl RequestOptions {
     /// Creates a new `RequestOptions` instance from optional headers, cookies, and query params.
     ///

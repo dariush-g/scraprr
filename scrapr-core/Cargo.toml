@@ -1,6 +1,6 @@
 [package]
 name = "scrapr-core"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A Rust web scraping library for Python"
 authors = ["Dariush Ghassemieh <dariush@ghassemieh.com>"]
@@ -14,7 +14,6 @@ keywords = ["scraping", "html", "parser", "web"]
 [dependencies]
 anyhow.workspace = true
 native-tls = { workspace = true }
-
 
 [lib]
 name = "scrapr_core"
